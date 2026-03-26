@@ -5,7 +5,7 @@ html {
     padding: 0;
     height: 100%;
     /* The Font Family- Really important!! */
-    font-family: Arial, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serifsans-serif;
     box-sizing: border-box;
 }
 
@@ -16,30 +16,31 @@ img {
 
 /* The hero section styling- use your OWN Hero Image URL here */
 .hero {
-    background-image: url('images/techquitybanner-1130x160.png');
+    background-image: url('images/ocean2_cropped.jpg'); 
     height: 25vh;
     background-size: cover;
     background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: rgba(255, 255, 255, 0.24);
     text-align: center;
     position: relative;
 }
 
 /* BIG text styling for the hero section text */
 .hero-text {
+    color: aquamarine;
     font-size: 4em;
     font-weight: bold;
 }
 
 /* nice big font on a banner style background */
 .topic-title{
-    color: white;
+    color: rgb(32, 226, 210);
     font-size: 2em;
     padding: 0.1em 3em;
-    background-color: rgb(71, 71, 71);
+    background-color: rgb(12, 62, 121);
 }
 
 /* Three column grid with a nice big gap */
@@ -73,8 +74,8 @@ img {
 
 /* Styling for a footer section to take a bit of spcae at the bottom of the page */
 .footer{
-    background-color: rgb(71, 71, 71);
-    color: white;
+    background-color: rgb(3, 59, 73);
+    color: rgb(20, 148, 105);
     text-align: right;
     padding: 3em 3em;
 }
